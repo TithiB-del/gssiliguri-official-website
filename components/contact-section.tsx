@@ -18,7 +18,7 @@ export function ContactSection() {
           <CardContent className="space-y-2">
             <p className="text-sm">We aim to respond within 2–3 business days.</p>
             <Button asChild className="bg-primary text-primary-foreground">
-              <a href="mailto:chapter@example.org">Email chapter@example.org</a>
+              <a href="mailto:chapter@example.org">Email sgirlscript@gmail.com</a>
             </Button>
           </CardContent>
         </Card>
