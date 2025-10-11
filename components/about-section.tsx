@@ -6,7 +6,8 @@ export function AboutSection() {
       </h2>
       <div className="mt-4 grid gap-6 md:grid-cols-2">
         <p className="text-muted-foreground">
-          Our GirlScript regional chapter is a welcoming community focused on helping beginners get into technology and
+          GirlScript Siliguri is a sub chapter of the regional chapter GirlScript West Bengal from the GirlScript Foundation.
+          It is a welcoming community focused on helping beginners get into technology and
           experienced folks level up. We run free events, mentorship circles, and collaborative projects with an
           emphasis on inclusivity and practical learning.
         </p>

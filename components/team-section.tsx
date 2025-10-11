@@ -1,12 +1,11 @@
 import { TeamMemberCard } from "@/components/team-member-card"
 
 const team = [
-  { name: "Aisha Sharma", role: "Chapter Lead" },
-  { name: "Meera Patel", role: "Programs Lead" },
-  { name: "Nadia Khan", role: "Community Manager" },
-  { name: "Priya Singh", role: "Design Lead" },
-  { name: "Riya Gupta", role: "Tech Lead" },
-  { name: "Ananya Rao", role: "Outreach Lead" },
+  { name: "Tithi B", role: "Moderator" },
+  { name: "Ronita Das", role: "Tech Expertise" },
+  { name: "Shrinjayee", role: "Designer" },
+  { name: "Sreemoyee Sadhukhan", role: "Web Lead" },
+  { name: "Barnita Tarafder", role: "Outreach Lead" },
 ]
 
 export function TeamSection() {
@@ -15,7 +14,7 @@ export function TeamSection() {
       <h2 id="team-heading" className="text-2xl md:text-3xl font-semibold text-pretty">
         Meet the Team
       </h2>
-      <p className="mt-2 text-muted-foreground">Volunteers and leaders who keep our chapter vibrant and inclusive.</p>
+      <p className="mt-2 text-muted-foreground">Volunteers and leaders who kept our chapter vibrant and inclusive.</p>
 
       <div className="mt-6 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
         {team.map((m) => (
